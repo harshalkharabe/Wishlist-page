@@ -1,13 +1,13 @@
 import React, { useState, useEffect } from 'react';
+import Logo from './Logo';
 
 // --- Splash Screen UI ---
 const SplashScreenUI: React.FC = () => (
-  <div className="w-full h-full bg-[#0a0a0b]">
-    <img
-      src="/phone-screen.png"
-      alt="WanderLust App Screen"
-      className="w-full h-full object-cover"
-    />
+  <div className="w-full h-full bg-[#0a0a0b] flex flex-col items-center justify-center">
+    <div className="flex flex-col items-center gap-4">
+      <Logo size="lg" className="w-20 h-20" />
+      <span className="text-2xl font-bold tracking-tight text-white">Local Lence</span>
+    </div>
   </div>
 );
 

@@ -9,7 +9,7 @@ const TermsAndConditions: React.FC = () => {
                 <div className="max-w-4xl mx-auto px-4 md:px-8 py-6">
                     <a href="/" onClick={(e) => { e.preventDefault(); window.history.pushState({}, '', '/'); window.dispatchEvent(new PopStateEvent('popstate')); }} className="flex items-center gap-3 w-fit hover:opacity-80 transition-opacity">
                         <Logo size="md" />
-                        <span className="text-xl font-bold tracking-tight">WanderLust</span>
+                        <span className="text-xl font-bold tracking-tight">Local Lence</span>
                     </a>
                 </div>
             </header>
@@ -26,7 +26,7 @@ const TermsAndConditions: React.FC = () => {
                     <section className="mb-10">
                         <h2 className="text-2xl font-bold text-white mb-4">1. Introduction</h2>
                         <p className="text-zinc-300 leading-relaxed mb-4">
-                            By accessing and using WanderLust, you accept and agree to be bound by the terms and provisions of this agreement. WanderLust is a personalized travel discovery platform that connects modern travelers with authentic local experiences, hidden gems, and curated city guides. When using these particular services, you shall be subject to any posted guidelines or rules applicable to such services.
+                            By accessing and using Local Lence, you accept and agree to be bound by the terms and provisions of this agreement. Local Lence is a personalized travel discovery platform that connects modern travelers with authentic local experiences, hidden gems, and curated city guides. When using these particular services, you shall be subject to any posted guidelines or rules applicable to such services.
                         </p>
                     </section>
 
@@ -34,7 +34,7 @@ const TermsAndConditions: React.FC = () => {
                     <section className="mb-10">
                         <h2 className="text-2xl font-bold text-white mb-4">2. Agreement to Terms</h2>
                         <p className="text-zinc-300 leading-relaxed mb-4">
-                            These Terms of Service constitute a legally binding agreement made between you, whether personally or on behalf of an entity ("you") and WanderLust ("we," "us" or "our"), concerning your access to and use of the WanderLust website, mobile application, and any other media form, media channel, or platform related, linked, or otherwise connected thereto (collectively, the "Platform").
+                            These Terms of Service constitute a legally binding agreement made between you, whether personally or on behalf of an entity ("you") and Local Lence ("we," "us" or "our"), concerning your access to and use of the Local Lence website, mobile application, and any other media form, media channel, or platform related, linked, or otherwise connected thereto (collectively, the "Platform").
                         </p>
                         <p className="text-zinc-300 leading-relaxed mb-4">
                             By accessing the Platform, you agree that you have read, understood, and agree to be bound by all of these Terms of Service. If you do not agree with all of these terms, you are expressly prohibited from using the Platform and must discontinue use immediately.
@@ -45,10 +45,10 @@ const TermsAndConditions: React.FC = () => {
                     <section className="mb-10">
                         <h2 className="text-2xl font-bold text-white mb-4">3. User Accounts and Waitlist</h2>
                         <p className="text-zinc-300 leading-relaxed mb-4">
-                            When you join our waitlist or create an account on WanderLust, you agree to provide accurate, current, and complete information. You are responsible for maintaining the confidentiality of your account credentials and for all activities that occur under your account.
+                            When you join our waitlist or create an account on Local Lence, you agree to provide accurate, current, and complete information. You are responsible for maintaining the confidentiality of your account credentials and for all activities that occur under your account.
                         </p>
                         <p className="text-zinc-300 leading-relaxed mb-4">
-                            We reserve the right to terminate accounts, remove or edit content at our sole discretion. Early access to WanderLust may be granted based on waitlist position, and early subscribers may receive exclusive benefits including priority access to new features and special pricing.
+                            We reserve the right to terminate accounts, remove or edit content at our sole discretion. Early access to Local Lence may be granted based on waitlist position, and early subscribers may receive exclusive benefits including priority access to new features and special pricing.
                         </p>
                     </section>
 
@@ -67,7 +67,7 @@ const TermsAndConditions: React.FC = () => {
                     <section className="mb-10">
                         <h2 className="text-2xl font-bold text-white mb-4">5. User-Generated Content</h2>
                         <p className="text-zinc-300 leading-relaxed mb-4">
-                            WanderLust may allow users to submit reviews, recommendations, photos, videos, and other content ("User Content"). By submitting User Content, you grant WanderLust a worldwide, non-exclusive, royalty-free, perpetual, and transferable license to use, reproduce, distribute, prepare derivative works of, display, and perform the User Content in connection with the Platform.
+                            Local Lence may allow users to submit reviews, recommendations, photos, videos, and other content ("User Content"). By submitting User Content, you grant Local Lence a worldwide, non-exclusive, royalty-free, perpetual, and transferable license to use, reproduce, distribute, prepare derivative works of, display, and perform the User Content in connection with the Platform.
                         </p>
                         <p className="text-zinc-300 leading-relaxed mb-4">
                             You represent and warrant that: (a) you own or have the necessary rights to submit the User Content; (b) the User Content does not violate any third-party rights; and (c) the User Content does not contain any unlawful, harmful, or offensive material.
@@ -81,10 +81,10 @@ const TermsAndConditions: React.FC = () => {
                     <section className="mb-10">
                         <h2 className="text-2xl font-bold text-white mb-4">6. Travel Guides and Recommendations</h2>
                         <p className="text-zinc-300 leading-relaxed mb-4">
-                            WanderLust provides curated travel guides, local recommendations, and destination information. While we strive to ensure accuracy and quality, we do not guarantee that all information is current, complete, or error-free. Venues may close, change hours, or alter their offerings without notice.
+                            Local Lence provides curated travel guides, local recommendations, and destination information. While we strive to ensure accuracy and quality, we do not guarantee that all information is current, complete, or error-free. Venues may close, change hours, or alter their offerings without notice.
                         </p>
                         <p className="text-zinc-300 leading-relaxed mb-4">
-                            Our recommendations are based on curation, user reviews, and third-party content. WanderLust is not responsible for the quality, safety, or availability of any venues, services, or experiences recommended on the Platform.
+                            Our recommendations are based on curation, user reviews, and third-party content. Local Lence is not responsible for the quality, safety, or availability of any venues, services, or experiences recommended on the Platform.
                         </p>
                     </section>
 
@@ -92,13 +92,13 @@ const TermsAndConditions: React.FC = () => {
                     <section className="mb-10">
                         <h2 className="text-2xl font-bold text-white mb-4">7. Paid Services and Subscriptions</h2>
                         <p className="text-zinc-300 leading-relaxed mb-4">
-                            WanderLust may offer paid services including premium city guides, full access to curated lists, and subscription-based features. Pricing and available features may vary based on your subscription plan.
+                            Local Lence may offer paid services including premium city guides, full access to curated lists, and subscription-based features. Pricing and available features may vary based on your subscription plan.
                         </p>
                         <p className="text-zinc-300 leading-relaxed mb-4">
                             <strong>Payment and Billing:</strong> By purchasing a paid service, you agree to pay all applicable fees and charges. Payments are processed through secure third-party payment processors. Subscription fees are billed on a recurring basis until cancelled.
                         </p>
                         <p className="text-zinc-300 leading-relaxed mb-4">
-                            <strong>Pricing Changes:</strong> WanderLust reserves the right to modify pricing for future subscriptions. Early subscribers will be notified of any pricing changes and may be grandfathered into existing rates or offered special pricing.
+                            <strong>Pricing Changes:</strong> Local Lence reserves the right to modify pricing for future subscriptions. Early subscribers will be notified of any pricing changes and may be grandfathered into existing rates or offered special pricing.
                         </p>
                     </section>
 
@@ -106,7 +106,7 @@ const TermsAndConditions: React.FC = () => {
                     <section className="mb-10">
                         <h2 className="text-2xl font-bold text-white mb-4">8. Refunds and Cancellations</h2>
                         <p className="text-zinc-300 leading-relaxed mb-4">
-                            Due to the nature of digital content and instant access to travel guides and premium features, WanderLust subscriptions and paid guides are generally non-refundable once access is granted. However, we evaluate refund requests on a case-by-case basis and may offer refunds at our sole discretion.
+                            Due to the nature of digital content and instant access to travel guides and premium features, Local Lence subscriptions and paid guides are generally non-refundable once access is granted. However, we evaluate refund requests on a case-by-case basis and may offer refunds at our sole discretion.
                         </p>
                         <p className="text-zinc-300 leading-relaxed mb-4">
                             You may cancel your subscription at any time, and you will continue to have access to premium features until the end of your current billing period. No refunds will be issued for partial subscription periods.
@@ -117,7 +117,7 @@ const TermsAndConditions: React.FC = () => {
                     <section className="mb-10">
                         <h2 className="text-2xl font-bold text-white mb-4">9. Third-Party Content and Links</h2>
                         <p className="text-zinc-300 leading-relaxed mb-4">
-                            WanderLust may feature embedded content from third-party sources including TikTok videos, Instagram posts, YouTube content, and recommendations from travel influencers and content creators. We may also integrate with third-party services such as Google Maps for navigation.
+                            Local Lence may feature embedded content from third-party sources including TikTok videos, Instagram posts, YouTube content, and recommendations from travel influencers and content creators. We may also integrate with third-party services such as Google Maps for navigation.
                         </p>
                         <p className="text-zinc-300 leading-relaxed mb-4">
                             We do not control or endorse third-party content and are not responsible for its accuracy, legality, or appropriateness. Your interactions with third-party services are governed by their respective terms and privacy policies.
@@ -128,7 +128,7 @@ const TermsAndConditions: React.FC = () => {
                     <section className="mb-10">
                         <h2 className="text-2xl font-bold text-white mb-4">10. Featured Locations and Advertising</h2>
                         <p className="text-zinc-300 leading-relaxed mb-4">
-                            WanderLust may feature sponsored or advertised locations within our guides and recommendations. Featured locations will be clearly marked as "Featured" or "Sponsored." The inclusion of featured locations does not affect our commitment to quality and authenticity.
+                            Local Lence may feature sponsored or advertised locations within our guides and recommendations. Featured locations will be clearly marked as "Featured" or "Sponsored." The inclusion of featured locations does not affect our commitment to quality and authenticity.
                         </p>
                         <p className="text-zinc-300 leading-relaxed mb-4">
                             Businesses interested in featured placement should contact us through our business partnerships channel. All featured content must meet our quality standards and align with our mission of providing authentic local experiences.
@@ -157,10 +157,10 @@ const TermsAndConditions: React.FC = () => {
                     <section className="mb-10">
                         <h2 className="text-2xl font-bold text-white mb-4">12. Disclaimer of Warranties</h2>
                         <p className="text-zinc-300 leading-relaxed mb-4">
-                            THE PLATFORM IS PROVIDED ON AN "AS-IS" AND "AS-AVAILABLE" BASIS. WANDERLUST MAKES NO WARRANTIES, EXPRESS OR IMPLIED, REGARDING THE PLATFORM, INCLUDING BUT NOT LIMITED TO WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, TITLE, OR NON-INFRINGEMENT.
+                            THE PLATFORM IS PROVIDED ON AN "AS-IS" AND "AS-AVAILABLE" BASIS. LOCAL LENCE MAKES NO WARRANTIES, EXPRESS OR IMPLIED, REGARDING THE PLATFORM, INCLUDING BUT NOT LIMITED TO WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, TITLE, OR NON-INFRINGEMENT.
                         </p>
                         <p className="text-zinc-300 leading-relaxed mb-4">
-                            WanderLust does not warrant that the Platform will meet your requirements, be uninterrupted, timely, secure, or error-free. We do not warrant the accuracy, completeness, or reliability of any content or recommendations on the Platform.
+                            Local Lence does not warrant that the Platform will meet your requirements, be uninterrupted, timely, secure, or error-free. We do not warrant the accuracy, completeness, or reliability of any content or recommendations on the Platform.
                         </p>
                     </section>
 
@@ -168,13 +168,13 @@ const TermsAndConditions: React.FC = () => {
                     <section className="mb-10">
                         <h2 className="text-2xl font-bold text-white mb-4">13. Limitation of Liability</h2>
                         <p className="text-zinc-300 leading-relaxed mb-4">
-                            TO THE FULLEST EXTENT PERMITTED BY LAW, WANDERLUST SHALL NOT BE LIABLE FOR ANY INDIRECT, INCIDENTAL, SPECIAL, CONSEQUENTIAL, OR PUNITIVE DAMAGES, OR ANY LOSS OF PROFITS OR REVENUES, WHETHER INCURRED DIRECTLY OR INDIRECTLY, OR ANY LOSS OF DATA, USE, GOODWILL, OR OTHER INTANGIBLE LOSSES.
+                            TO THE FULLEST EXTENT PERMITTED BY LAW, LOCAL LENCE SHALL NOT BE LIABLE FOR ANY INDIRECT, INCIDENTAL, SPECIAL, CONSEQUENTIAL, OR PUNITIVE DAMAGES, OR ANY LOSS OF PROFITS OR REVENUES, WHETHER INCURRED DIRECTLY OR INDIRECTLY, OR ANY LOSS OF DATA, USE, GOODWILL, OR OTHER INTANGIBLE LOSSES.
                         </p>
                         <p className="text-zinc-300 leading-relaxed mb-4">
-                            WanderLust is not responsible for any experiences, services, or venues you visit based on our recommendations. We are not liable for any injuries, losses, damages, or other issues that may arise from your travel activities.
+                            Local Lence is not responsible for any experiences, services, or venues you visit based on our recommendations. We are not liable for any injuries, losses, damages, or other issues that may arise from your travel activities.
                         </p>
                         <p className="text-zinc-300 leading-relaxed mb-4">
-                            If WanderLust is found liable to you for any claim, our total liability is limited to the amount you actually paid to WanderLust in the twelve (12) months preceding the event giving rise to the liability, or $100, whichever is greater.
+                            If Local Lence is found liable to you for any claim, our total liability is limited to the amount you actually paid to Local Lence in the twelve (12) months preceding the event giving rise to the liability, or $100, whichever is greater.
                         </p>
                     </section>
 
@@ -182,7 +182,7 @@ const TermsAndConditions: React.FC = () => {
                     <section className="mb-10">
                         <h2 className="text-2xl font-bold text-white mb-4">14. Indemnification</h2>
                         <p className="text-zinc-300 leading-relaxed mb-4">
-                            You agree to indemnify, defend, and hold harmless WanderLust and its officers, directors, employees, agents, and affiliates from any claims, liabilities, damages, losses, costs, or expenses (including reasonable attorneys' fees) arising out of or related to: (a) your use of the Platform; (b) your violation of these Terms; (c) your User Content; or (d) your violation of any rights of another party.
+                            You agree to indemnify, defend, and hold harmless Local Lence and its officers, directors, employees, agents, and affiliates from any claims, liabilities, damages, losses, costs, or expenses (including reasonable attorneys' fees) arising out of or related to: (a) your use of the Platform; (b) your violation of these Terms; (c) your User Content; or (d) your violation of any rights of another party.
                         </p>
                     </section>
 
@@ -190,10 +190,10 @@ const TermsAndConditions: React.FC = () => {
                     <section className="mb-10">
                         <h2 className="text-2xl font-bold text-white mb-4">15. Data Ownership and Privacy</h2>
                         <p className="text-zinc-300 leading-relaxed mb-4">
-                            You retain ownership of any personal data you provide to WanderLust. We collect and process your information in accordance with our Privacy Policy. By using the Platform, you consent to our data practices as described in the Privacy Policy.
+                            You retain ownership of any personal data you provide to Local Lence. We collect and process your information in accordance with our Privacy Policy. By using the Platform, you consent to our data practices as described in the Privacy Policy.
                         </p>
                         <p className="text-zinc-300 leading-relaxed mb-4">
-                            WanderLust uses your data to provide personalized recommendations, improve our services, and enhance your travel discovery experience. We do not sell your personal information to third parties.
+                            Local Lence uses your data to provide personalized recommendations, improve our services, and enhance your travel discovery experience. We do not sell your personal information to third parties.
                         </p>
                     </section>
 
@@ -201,7 +201,7 @@ const TermsAndConditions: React.FC = () => {
                     <section className="mb-10">
                         <h2 className="text-2xl font-bold text-white mb-4">16. Modifications to the Platform</h2>
                         <p className="text-zinc-300 leading-relaxed mb-4">
-                            WanderLust reserves the right to modify, suspend, or discontinue any aspect of the Platform at any time, with or without notice. We may also modify these Terms at any time. Your continued use of the Platform following any changes constitutes acceptance of those changes.
+                            Local Lence reserves the right to modify, suspend, or discontinue any aspect of the Platform at any time, with or without notice. We may also modify these Terms at any time. Your continued use of the Platform following any changes constitutes acceptance of those changes.
                         </p>
                         <p className="text-zinc-300 leading-relaxed mb-4">
                             We will make reasonable efforts to notify users of material changes to these Terms via email or through the Platform.
@@ -212,7 +212,7 @@ const TermsAndConditions: React.FC = () => {
                     <section className="mb-10">
                         <h2 className="text-2xl font-bold text-white mb-4">17. Geographic Expansion</h2>
                         <p className="text-zinc-300 leading-relaxed mb-4">
-                            WanderLust may start with specific cities and categories (such as coffee shops, bookstores, and local hangout spots) and expand to additional destinations and categories over time. Availability of guides and features may vary by location.
+                            Local Lence may start with specific cities and categories (such as coffee shops, bookstores, and local hangout spots) and expand to additional destinations and categories over time. Availability of guides and features may vary by location.
                         </p>
                     </section>
 
@@ -223,7 +223,7 @@ const TermsAndConditions: React.FC = () => {
                             These Terms shall be governed by and construed in accordance with the laws of the United States, without regard to its conflict of law provisions. Any disputes arising out of or related to these Terms or the Platform shall be resolved through binding arbitration in accordance with the rules of the American Arbitration Association.
                         </p>
                         <p className="text-zinc-300 leading-relaxed mb-4">
-                            You waive any right to participate in a class action lawsuit or class-wide arbitration against WanderLust.
+                            You waive any right to participate in a class action lawsuit or class-wide arbitration against Local Lence.
                         </p>
                     </section>
 
@@ -239,7 +239,7 @@ const TermsAndConditions: React.FC = () => {
                     <section className="mb-10">
                         <h2 className="text-2xl font-bold text-white mb-4">20. Contact Information</h2>
                         <p className="text-zinc-300 leading-relaxed mb-4">
-                            If you have any questions, concerns, or feedback about these Terms of Service, please contact us through our support channels or email us at legal@wanderlust.com
+                            If you have any questions, concerns, or feedback about these Terms of Service, please contact us through our support channels or email us at legal@locallence.com
                         </p>
                         <p className="text-zinc-300 leading-relaxed mb-4">
                             We value your input and are committed to providing exceptional service to our community of modern travelers.
@@ -249,10 +249,10 @@ const TermsAndConditions: React.FC = () => {
                     {/* Acceptance */}
                     <section className="mb-10 p-6 bg-zinc-900/50 border border-zinc-800 rounded-xl">
                         <p className="text-zinc-300 leading-relaxed">
-                            <strong className="text-white">By using WanderLust, you acknowledge that you have read, understood, and agree to be bound by these Terms and Conditions.</strong>
+                            <strong className="text-white">By using Local Lence, you acknowledge that you have read, understood, and agree to be bound by these Terms and Conditions.</strong>
                         </p>
                         <p className="text-zinc-400 text-sm mt-4">
-                            Thank you for choosing WanderLust - where authentic travel experiences await.
+                            Thank you for choosing Local Lence - where authentic travel experiences await.
                         </p>
                     </section>
                 </div>

@@ -15,7 +15,7 @@ const Footer: React.FC = () => {
                         {/* Logo & Brand Name */}
                         <div className="flex items-center gap-3 mb-4">
                             <Logo size="md" />
-                            <span className="text-xl font-bold tracking-tight text-white">WanderLust</span>
+                            <span className="text-xl font-bold tracking-tight text-white">Local Lence</span>
                         </div>
 
                         {/* Tagline */}
@@ -29,7 +29,7 @@ const Footer: React.FC = () => {
                             <span className="text-red-500 animate-pulse">❤️</span>
                             <span>and</span>
                             <span className="text-teal-400">✨</span>
-                            <span>by WanderLust Team</span>
+                            <span>by Local Lence Team</span>
                         </div>
 
                         {/* Version */}
@@ -172,7 +172,7 @@ const Footer: React.FC = () => {
                 <div className="mt-12 pt-8 border-t border-zinc-800/50">
                     <div className="flex flex-col md:flex-row justify-between items-center gap-4">
                         <p className="text-zinc-500 text-sm">
-                            © {currentYear} WanderLust. All rights reserved.
+                            © {currentYear} Local Lence. All rights reserved.
                         </p>
                         <div className="flex items-center gap-2 text-zinc-500 text-sm">
                             <span>Made with passion for travelers</span>

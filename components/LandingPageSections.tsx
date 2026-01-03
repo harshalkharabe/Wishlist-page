@@ -63,7 +63,7 @@ const LandingPage: React.FC = () => {
                             Discover Like a <span className="gradient-text">Local</span>
                         </h2>
                         <p className="text-zinc-400 text-lg max-w-2xl mx-auto leading-relaxed">
-                            WanderLust is a TikTok-inspired platform featuring personalized travel guides and hidden local gems you won't find anywhere else.
+                            Local Lence is a TikTok-inspired platform featuring personalized travel guides and hidden local gems you won't find anywhere else.
                         </p>
                     </div>
 
@@ -150,7 +150,7 @@ const LandingPage: React.FC = () => {
                 <div className="max-w-6xl mx-auto px-4 md:px-12 lg:px-24">
                     <div className="text-center mb-12">
                         <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold mb-4">
-                            How WanderLust Works
+                            How Local Lence Works
                         </h2>
                         <p className="text-zinc-400 text-lg max-w-2xl mx-auto">
                             A sustainable model that keeps quality high and content authentic

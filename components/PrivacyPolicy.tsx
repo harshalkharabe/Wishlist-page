@@ -9,7 +9,7 @@ const PrivacyPolicy: React.FC = () => {
                 <div className="max-w-4xl mx-auto px-4 md:px-8 py-6">
                     <a href="/" onClick={(e) => { e.preventDefault(); window.history.pushState({}, '', '/'); window.dispatchEvent(new PopStateEvent('popstate')); }} className="flex items-center gap-3 w-fit hover:opacity-80 transition-opacity">
                         <Logo size="md" />
-                        <span className="text-xl font-bold tracking-tight">WanderLust</span>
+                        <span className="text-xl font-bold tracking-tight">Local Lence</span>
                     </a>
                 </div>
             </header>
@@ -25,13 +25,13 @@ const PrivacyPolicy: React.FC = () => {
                     {/* Introduction */}
                     <section className="mb-10">
                         <p className="text-zinc-300 leading-relaxed mb-4 text-lg">
-                            Your privacy is important to us. It is WanderLust's policy to respect your privacy regarding any information we may collect from you across our platform, including our website, mobile application, and other services we own and operate.
+                            Your privacy is important to us. It is Local Lence's policy to respect your privacy regarding any information we may collect from you across our platform, including our website, mobile application, and other services we own and operate.
                         </p>
                         <p className="text-zinc-300 leading-relaxed mb-4">
                             We only ask for personal information when we truly need it to provide a service to you. We collect it by fair and lawful means, with your knowledge and consent. We also let you know why we're collecting it and how it will be used.
                         </p>
                         <p className="text-zinc-300 leading-relaxed mb-4">
-                            This Privacy Policy explains how WanderLust collects, uses, shares, and protects your personal information in compliance with applicable data protection laws, including the EU General Data Protection Regulation (GDPR) and the California Consumer Privacy Act (CCPA).
+                            This Privacy Policy explains how Local Lence collects, uses, shares, and protects your personal information in compliance with applicable data protection laws, including the EU General Data Protection Regulation (GDPR) and the California Consumer Privacy Act (CCPA).
                         </p>
                     </section>
 
@@ -41,7 +41,7 @@ const PrivacyPolicy: React.FC = () => {
 
                         <h3 className="text-xl font-semibold text-white mb-3 mt-6">1.1 Information You Provide</h3>
                         <p className="text-zinc-300 leading-relaxed mb-4">
-                            When you join our waitlist or create an account on WanderLust, we collect information that you voluntarily provide, including:
+                            When you join our waitlist or create an account on Local Lence, we collect information that you voluntarily provide, including:
                         </p>
                         <ul className="list-disc pl-6 text-zinc-300 space-y-2 mb-4">
                             <li><strong>Account Information:</strong> Email address, name, username, password, and profile picture</li>
@@ -53,7 +53,7 @@ const PrivacyPolicy: React.FC = () => {
 
                         <h3 className="text-xl font-semibold text-white mb-3 mt-6">1.2 Information Collected Automatically</h3>
                         <p className="text-zinc-300 leading-relaxed mb-4">
-                            When you use WanderLust, we automatically collect certain information about your device and usage:
+                            When you use Local Lence, we automatically collect certain information about your device and usage:
                         </p>
                         <ul className="list-disc pl-6 text-zinc-300 space-y-2 mb-4">
                             <li><strong>Device Information:</strong> Device type, operating system, browser type, IP address, and unique device identifiers</li>
@@ -77,7 +77,7 @@ const PrivacyPolicy: React.FC = () => {
                     <section className="mb-10">
                         <h2 className="text-2xl font-bold text-white mb-4">2. How We Use Your Information</h2>
                         <p className="text-zinc-300 leading-relaxed mb-4">
-                            WanderLust uses the collected information for the following purposes:
+                            Local Lence uses the collected information for the following purposes:
                         </p>
 
                         <h3 className="text-xl font-semibold text-white mb-3 mt-6">2.1 Providing and Improving Services</h3>
@@ -129,7 +129,7 @@ const PrivacyPolicy: React.FC = () => {
 
                         <h3 className="text-xl font-semibold text-white mb-3 mt-6">3.2 Service Providers</h3>
                         <p className="text-zinc-300 leading-relaxed mb-4">
-                            We work with trusted third-party service providers who help us operate WanderLust:
+                            We work with trusted third-party service providers who help us operate Local Lence:
                         </p>
                         <ul className="list-disc pl-6 text-zinc-300 space-y-2 mb-4">
                             <li>Payment processors (Stripe, PayPal, etc.)</li>
@@ -144,17 +144,17 @@ const PrivacyPolicy: React.FC = () => {
 
                         <h3 className="text-xl font-semibold text-white mb-3 mt-6">3.3 Public Content</h3>
                         <p className="text-zinc-300 leading-relaxed mb-4">
-                            Information you choose to make public on WanderLust, such as reviews, ratings, photos, and recommendations, may be visible to other users and may appear in search engine results.
+                            Information you choose to make public on Local Lence, such as reviews, ratings, photos, and recommendations, may be visible to other users and may appear in search engine results.
                         </p>
 
                         <h3 className="text-xl font-semibold text-white mb-3 mt-6">3.4 Business Transfers</h3>
                         <p className="text-zinc-300 leading-relaxed mb-4">
-                            If WanderLust is involved in a merger, acquisition, or sale of assets, your information may be transferred as part of that transaction. We will notify you before your information becomes subject to a different privacy policy.
+                            If Local Lence is involved in a merger, acquisition, or sale of assets, your information may be transferred as part of that transaction. We will notify you before your information becomes subject to a different privacy policy.
                         </p>
 
                         <h3 className="text-xl font-semibold text-white mb-3 mt-6">3.5 Legal Requirements</h3>
                         <p className="text-zinc-300 leading-relaxed mb-4">
-                            We may disclose your information when required by law, such as to comply with a subpoena, court order, or other legal process, or to protect the rights, property, or safety of WanderLust, our users, or others.
+                            We may disclose your information when required by law, such as to comply with a subpoena, court order, or other legal process, or to protect the rights, property, or safety of Local Lence, our users, or others.
                         </p>
 
                         <h3 className="text-xl font-semibold text-white mb-3 mt-6">3.6 Aggregated and De-identified Data</h3>
@@ -184,7 +184,7 @@ const PrivacyPolicy: React.FC = () => {
                     <section className="mb-10">
                         <h2 className="text-2xl font-bold text-white mb-4">5. Data Security</h2>
                         <p className="text-zinc-300 leading-relaxed mb-4">
-                            WanderLust takes data security seriously and implements industry-standard security measures to protect your personal information:
+                            Local Lence takes data security seriously and implements industry-standard security measures to protect your personal information:
                         </p>
                         <ul className="list-disc pl-6 text-zinc-300 space-y-2 mb-4">
                             <li><strong>Encryption:</strong> We use SSL/TLS encryption for data transmission and encrypt sensitive data at rest</li>
@@ -237,7 +237,7 @@ const PrivacyPolicy: React.FC = () => {
                         <ul className="list-disc pl-6 text-zinc-300 space-y-2 mb-4">
                             <li>Right to know what personal information is collected, used, shared, or sold</li>
                             <li>Right to delete personal information</li>
-                            <li>Right to opt out of the sale of personal information (Note: WanderLust does not sell personal information)</li>
+                            <li>Right to opt out of the sale of personal information (Note: Local Lence does not sell personal information)</li>
                             <li>Right to non-discrimination for exercising your privacy rights</li>
                         </ul>
 
@@ -261,7 +261,7 @@ const PrivacyPolicy: React.FC = () => {
                     <section className="mb-10">
                         <h2 className="text-2xl font-bold text-white mb-4">7. Cookies and Tracking Technologies</h2>
                         <p className="text-zinc-300 leading-relaxed mb-4">
-                            WanderLust uses cookies and similar tracking technologies to enhance your experience:
+                            Local Lence uses cookies and similar tracking technologies to enhance your experience:
                         </p>
 
                         <h3 className="text-xl font-semibold text-white mb-3 mt-6">7.1 Types of Cookies We Use</h3>
@@ -282,7 +282,7 @@ const PrivacyPolicy: React.FC = () => {
                     <section className="mb-10">
                         <h2 className="text-2xl font-bold text-white mb-4">8. Third-Party Content and Services</h2>
                         <p className="text-zinc-300 leading-relaxed mb-4">
-                            WanderLust integrates with third-party services to enhance your experience:
+                            Local Lence integrates with third-party services to enhance your experience:
                         </p>
 
                         <h3 className="text-xl font-semibold text-white mb-3 mt-6">8.1 Embedded Content</h3>
@@ -305,7 +305,7 @@ const PrivacyPolicy: React.FC = () => {
                     <section className="mb-10">
                         <h2 className="text-2xl font-bold text-white mb-4">9. Children's Privacy</h2>
                         <p className="text-zinc-300 leading-relaxed mb-4">
-                            WanderLust is not intended for children under the age of 13 (or 16 in the EEA). We do not knowingly collect personal information from children. If you believe we have inadvertently collected information from a child, please contact us immediately, and we will take steps to delete the information.
+                            Local Lence is not intended for children under the age of 13 (or 16 in the EEA). We do not knowingly collect personal information from children. If you believe we have inadvertently collected information from a child, please contact us immediately, and we will take steps to delete the information.
                         </p>
                     </section>
 
@@ -313,7 +313,7 @@ const PrivacyPolicy: React.FC = () => {
                     <section className="mb-10">
                         <h2 className="text-2xl font-bold text-white mb-4">10. International Data Transfers</h2>
                         <p className="text-zinc-300 leading-relaxed mb-4">
-                            WanderLust operates globally, and your information may be transferred to and processed in countries other than your country of residence. These countries may have different data protection laws.
+                            Local Lence operates globally, and your information may be transferred to and processed in countries other than your country of residence. These countries may have different data protection laws.
                         </p>
                         <p className="text-zinc-300 leading-relaxed mb-4">
                             When we transfer personal data from the EEA to other countries, we use approved data transfer mechanisms, such as Standard Contractual Clauses, to ensure your data receives adequate protection.
@@ -324,7 +324,7 @@ const PrivacyPolicy: React.FC = () => {
                     <section className="mb-10">
                         <h2 className="text-2xl font-bold text-white mb-4">11. Data Controller and Processor</h2>
                         <p className="text-zinc-300 leading-relaxed mb-4">
-                            WanderLust acts as both a data controller and a data processor with respect to the personal data we handle, in accordance with applicable data protection laws including GDPR.
+                            Local Lence acts as both a data controller and a data processor with respect to the personal data we handle, in accordance with applicable data protection laws including GDPR.
                         </p>
                         <p className="text-zinc-300 leading-relaxed mb-4">
                             As a data controller, we determine the purposes and means of processing your personal information. As a data processor, we process certain data on behalf of our users when they create and share content.
@@ -352,7 +352,7 @@ const PrivacyPolicy: React.FC = () => {
                             We may update this Privacy Policy from time to time to reflect changes in our practices, technology, legal requirements, or other factors.
                         </p>
                         <p className="text-zinc-300 leading-relaxed mb-4">
-                            When we make material changes, we will notify you by email (if you have provided one) or through a prominent notice on the platform. Your continued use of WanderLust after any changes constitutes acceptance of the updated Privacy Policy.
+                            When we make material changes, we will notify you by email (if you have provided one) or through a prominent notice on the platform. Your continued use of Local Lence after any changes constitutes acceptance of the updated Privacy Policy.
                         </p>
                         <p className="text-zinc-300 leading-relaxed mb-4">
                             We encourage you to review this Privacy Policy periodically to stay informed about how we protect your information.
@@ -366,9 +366,9 @@ const PrivacyPolicy: React.FC = () => {
                             If you have any questions, concerns, or requests regarding this Privacy Policy or our data practices, please contact us:
                         </p>
                         <ul className="list-none text-zinc-300 space-y-2 mb-4">
-                            <li><strong>Email:</strong> privacy@wanderlust.com</li>
+                            <li><strong>Email:</strong> privacy@locallence.com</li>
                             <li><strong>Support:</strong> Through our in-app support channels</li>
-                            <li><strong>Data Protection Officer:</strong> dpo@wanderlust.com</li>
+                            <li><strong>Data Protection Officer:</strong> dpo@locallence.com</li>
                         </ul>
                         <p className="text-zinc-300 leading-relaxed mb-4">
                             We value your privacy and are committed to addressing your concerns promptly and transparently.
@@ -379,13 +379,13 @@ const PrivacyPolicy: React.FC = () => {
                     <section className="mb-10 p-6 bg-zinc-900/50 border border-zinc-800 rounded-xl">
                         <h3 className="text-xl font-semibold text-white mb-3">Our Commitment to You</h3>
                         <p className="text-zinc-300 leading-relaxed mb-4">
-                            At WanderLust, we're committed to protecting your privacy while helping you discover authentic travel experiences. We believe that personalized recommendations shouldn't come at the cost of your privacy.
+                            At Local Lence, we're committed to protecting your privacy while helping you discover authentic travel experiences. We believe that personalized recommendations shouldn't come at the cost of your privacy.
                         </p>
                         <p className="text-zinc-300 leading-relaxed mb-4">
                             We will never sell your personal information to third parties. We use your data solely to provide you with better travel recommendations and improve your experience on our platform.
                         </p>
                         <p className="text-zinc-400 text-sm mt-4">
-                            Thank you for trusting WanderLust with your travel journey. Together, let's explore the world beyond the tourist traps.
+                            Thank you for trusting Local Lence with your travel journey. Together, let's explore the world beyond the tourist traps.
                         </p>
                     </section>
                 </div>

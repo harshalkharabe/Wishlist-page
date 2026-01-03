@@ -25,7 +25,7 @@ const App: React.FC = () => {
       {/* Brand Watermark */}
       <div className="absolute top-6 left-6 md:top-8 md:left-8 lg:top-12 lg:left-12 flex items-center gap-3 z-20">
         <Logo size="md" className="md:w-10 md:h-10" />
-        <span className="text-lg md:text-xl font-bold tracking-tight text-white">WanderLust</span>
+        <span className="text-lg md:text-xl font-bold tracking-tight text-white">Local Lence</span>
       </div>
 
       {/* Main Content - Hero Section */}
